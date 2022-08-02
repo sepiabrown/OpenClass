@@ -1,0 +1,95 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1653893745,
+        "narHash": "sha256-0jntwV3Z8//YwuOjzhV2sgJJPt+HY6KhU7VZUL0fKZQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "1ed9fb1935d260de5fe1c2f7ee0ebaae17ed2fa1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1631561581,
+        "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e5bf3925f6fbdfaf50a2a7ca0be2879c4261d19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "master",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixgl": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1643666768,
+        "narHash": "sha256-V/iykeipa5yb+WrL1rmY/Msu7L3UvL3CbaWJjQApdQE=",
+        "owner": "sepiabrown",
+        "repo": "nixGL",
+        "rev": "9851ba2a4a5ab4fe20edd36887d85811d2665199",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sepiabrown",
+        "repo": "nixGL",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1634774840,
+        "narHash": "sha256-a8kYgvV+OyEAQG8QOnnf0l5CiuqBvN75D3AZMGkR7nM=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "524d665f4d2b9446f9b67cfed60515b0070bb79c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "haskell-updates",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1654257701,
+        "narHash": "sha256-WtRDZ6lZXNGi0sdjbY9MZUOfVvtknogBTTGYexKQ7oI=",
+        "owner": "sepiabrown",
+        "repo": "nixpkgs",
+        "rev": "163286bb8f9d1b75824834f7961d942bd4122afc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sepiabrown",
+        "ref": "rserver_test4",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixgl": "nixgl",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

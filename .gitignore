@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.direnv/
+log
+.*/RcppExports.cpp
+*.o
+*.so
+QtProject.conf
+RStudiorc
+kdeglobals
+rstudio
